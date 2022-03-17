@@ -38,7 +38,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                bat "xcopy dist\\clase6 C:\\inetpub\\wwwroot\\ricardocalvo\\dev /s /y"
+                bat "xcopy dist\\clase6 C:\\inetpub\\wwwroot\\ricardocalvo\\prod /s /y"
             }
         }
     }
