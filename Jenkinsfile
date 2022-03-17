@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Deploy Aplication'){
             steps {
-                bat "xcopy dist\\clase6 C:\\inetpub\\wwwroot\\ricardocalvo\\prod /s /y"
+                bat "xcopy dist\\clase6 C:\\inetpub\\wwwroot\\ricardocalvo\\prod* /s /y"
             }
         }
     }
