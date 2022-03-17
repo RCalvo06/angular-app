@@ -31,7 +31,6 @@ pipeline {
         }
         
         stage('Deploy Application') {
-
             when {
                 branch "main"
             }
